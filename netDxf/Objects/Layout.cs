@@ -24,12 +24,12 @@
 #endregion
 
 using System;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Entities;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents a layout.

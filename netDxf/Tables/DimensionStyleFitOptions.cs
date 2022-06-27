@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Controls dimension text and arrow placement when space is not sufficient to place both within the extension lines.

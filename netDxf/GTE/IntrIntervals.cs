@@ -34,7 +34,7 @@
 
 using System;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // The intervals are of the form [t0,t1], [t0,+infinity) or (-infinity,t1].
     // Degenerate intervals are allowed (t0 = t1). The queries do not perform

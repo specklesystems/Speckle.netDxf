@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Objects;
-using netDxf.Tables;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a multiline <see cref="EntityObject">entity</see>.

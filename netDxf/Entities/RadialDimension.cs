@@ -25,10 +25,10 @@
 
 using System;
 using System.Diagnostics;
-using netDxf.Blocks;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a radial dimension <see cref="EntityObject">entity</see>.

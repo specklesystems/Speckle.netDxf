@@ -25,9 +25,9 @@
 
 using System;
 using System.IO;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents an underlay definition.

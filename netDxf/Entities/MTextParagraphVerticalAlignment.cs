@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Paragraph text vertical alignment.

@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Defines the coordinate system reference.

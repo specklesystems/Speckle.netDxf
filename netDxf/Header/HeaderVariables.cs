@@ -26,11 +26,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using netDxf.Entities;
-using netDxf.Tables;
-using netDxf.Units;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Header
+namespace Speckle.netDxf.Header
 {
     /// <summary>
     /// Represents the header variables of a DXF document.

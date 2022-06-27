@@ -26,13 +26,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using netDxf.Collections;
-using netDxf.Entities;
-using netDxf.Header;
-using netDxf.Objects;
-using netDxf.Tables;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Header;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Blocks
+namespace Speckle.netDxf.Blocks
 {
     /// <summary>
     /// Represents a block definition.

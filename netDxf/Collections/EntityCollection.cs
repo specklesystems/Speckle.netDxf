@@ -26,9 +26,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represent a collection of <see cref="EntityObject">entities</see> that fire events when it is modified. 

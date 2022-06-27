@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents the extended data information.

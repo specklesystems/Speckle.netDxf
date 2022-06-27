@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     [Flags]
     public enum ViewModeFlags

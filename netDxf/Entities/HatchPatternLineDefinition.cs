@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Defines a single line thats is part of a <see cref="HatchPattern">hatch pattern</see>.

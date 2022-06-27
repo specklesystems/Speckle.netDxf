@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     internal interface ICodeValueWriter
     {

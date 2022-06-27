@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Defines the fraction format when DIMLUNIT is set to 4 (Architectural) or 5 (Fractional).

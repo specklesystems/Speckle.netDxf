@@ -35,7 +35,7 @@
 using System;
 using System.Diagnostics;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // The BSplineReduction class is an implementation of the algorithm in
     // https://www.geometrictools.com/Documentation/BSplineReduction.pdf

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Units;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents the way alternate units are formatted in dimension entities.

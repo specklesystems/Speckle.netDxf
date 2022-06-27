@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Blocks
+namespace Speckle.netDxf.Blocks
 {
     /// <summary>
     /// Block-type flags (bit-coded values, may be combined).

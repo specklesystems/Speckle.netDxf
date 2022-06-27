@@ -26,9 +26,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents a dictionary of <see cref="AttributeDefinition">AttributeDefinitions</see>.

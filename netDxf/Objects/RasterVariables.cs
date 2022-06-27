@@ -23,9 +23,9 @@
 // 
 #endregion
 
-using netDxf.Units;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents the variables applied to bitmaps.

@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Controls the vertical placement of dimension text in relation to the dimension line.

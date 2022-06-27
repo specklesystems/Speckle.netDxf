@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Specifies the direction of the dimension text.

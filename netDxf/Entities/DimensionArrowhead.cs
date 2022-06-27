@@ -24,10 +24,10 @@
 #endregion
 
 using System.Collections.Generic;
-using netDxf.Blocks;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Predefined shapes for dimension style arrowheads.

@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Defines the image resolution units.

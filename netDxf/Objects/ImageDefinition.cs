@@ -25,11 +25,11 @@
 
 using System;
 using System.IO;
-using netDxf.Collections;
-using netDxf.Tables;
-using netDxf.Units;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents an image definition.

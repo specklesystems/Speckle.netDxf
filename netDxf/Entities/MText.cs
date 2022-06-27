@@ -27,10 +27,10 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using netDxf.Tables;
-using netDxf.Units;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a multiline text <see cref="EntityObject">entity</see>.

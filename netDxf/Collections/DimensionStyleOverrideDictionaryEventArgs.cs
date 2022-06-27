@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents the arguments thrown by the <see cref="DimensionStyleOverrideDictionary">DimensionStyleOverrideDictionary</see> events.

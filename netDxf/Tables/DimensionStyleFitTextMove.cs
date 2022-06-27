@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Controls the placement of dimension text when it is moved from the default position, that is, the position defined by the dimension style.

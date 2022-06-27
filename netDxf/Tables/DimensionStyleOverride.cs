@@ -24,10 +24,10 @@
 #endregion
 
 using System;
-using netDxf.Blocks;
-using netDxf.Units;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents a dimension style value that overrides a property of the style associated with a dimension.

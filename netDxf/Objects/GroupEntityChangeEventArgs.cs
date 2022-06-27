@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     public class GroupEntityChangeEventArgs :
         EventArgs

@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a <see cref="Polyline2D">Polyline2D</see> vertex.

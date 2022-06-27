@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Image display quality (screen only).

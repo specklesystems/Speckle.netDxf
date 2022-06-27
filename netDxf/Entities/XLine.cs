@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents an extension line <see cref="EntityObject">entity</see> (aka construction line).

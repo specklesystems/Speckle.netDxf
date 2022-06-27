@@ -28,7 +28,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Helper class for working with 'extended' enums using <see cref="StringValueAttribute"/> attributes.

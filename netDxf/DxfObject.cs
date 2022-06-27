@@ -23,10 +23,10 @@
 // 
 #endregion
 
-using netDxf.Collections;
-using netDxf.Tables;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Tables;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents the base class for all DXF objects.

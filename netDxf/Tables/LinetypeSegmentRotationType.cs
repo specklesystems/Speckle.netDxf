@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Define the type of rotation specified by the rotation value of the text or shape linetype segment.

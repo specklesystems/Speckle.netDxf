@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents the arguments thrown by the <c>EntityCollection</c> events.

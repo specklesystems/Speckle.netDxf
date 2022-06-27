@@ -34,7 +34,7 @@
 
 using System;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     public class BandedMatrix
     {

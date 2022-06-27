@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Utility functions to handle DateTime conversions.

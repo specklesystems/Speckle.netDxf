@@ -29,7 +29,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a <see cref="Hatch">hatch</see> pattern style.

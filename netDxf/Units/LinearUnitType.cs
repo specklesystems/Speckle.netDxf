@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Linear units format for creating objects.

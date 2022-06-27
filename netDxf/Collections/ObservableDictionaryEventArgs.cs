@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents the arguments thrown by the <c>ObservableDictionaryEventArgs</c> events.

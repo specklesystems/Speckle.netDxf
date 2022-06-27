@@ -34,7 +34,7 @@
 
 using System;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // Compute a root of a function F(t) on an interval [t0, t1].  The caller
     // specifies the maximum number of iterations, in case you want limited

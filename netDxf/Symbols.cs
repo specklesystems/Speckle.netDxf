@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Symbols for dxf text strings.

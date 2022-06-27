@@ -35,7 +35,7 @@
 using System;
 using System.Diagnostics;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // The input matrix M must be NxN.  The storage convention for element lookup
     // is determined by GTE_USE_ROW_MAJOR or GTE_USE_COL_MAJOR, whichever is

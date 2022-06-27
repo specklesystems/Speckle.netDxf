@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     public class AttributeChangeEventArgs :
         EventArgs

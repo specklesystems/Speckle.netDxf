@@ -26,7 +26,7 @@
 using System;
 using System.Threading;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents an edge of a <see cref="EntityObject">mesh</see> entity.

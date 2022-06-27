@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Objects;
-using netDxf.Tables;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Manages the list of layer states in a drawing.

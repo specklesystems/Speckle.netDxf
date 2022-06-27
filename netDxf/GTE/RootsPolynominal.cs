@@ -45,7 +45,7 @@ using System.Linq;
 //#define GTE_ROOTS_LOW_DEGREE_BLOCK(block)
 //#endif
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // The Find functions return the number of roots, if any, and this number
     // of elements of the outputs are valid.  If the polynomial is identically

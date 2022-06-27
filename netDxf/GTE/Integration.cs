@@ -35,7 +35,7 @@
 using System;
 using System.Linq;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     public static class Integration
     {

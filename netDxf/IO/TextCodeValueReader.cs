@@ -29,7 +29,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     internal class TextCodeValueReader :
         ICodeValueReader

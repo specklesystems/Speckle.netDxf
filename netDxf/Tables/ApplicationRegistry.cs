@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Collections;
+using Speckle.netDxf.Collections;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents a registered application name to which the <see cref="XData">extended data</see> is associated.

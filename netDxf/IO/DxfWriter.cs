@@ -29,20 +29,20 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Entities;
-using netDxf.Header;
-using netDxf.Objects;
-using netDxf.Tables;
-using netDxf.Units;
-using Attribute = netDxf.Entities.Attribute;
-using Image = netDxf.Entities.Image;
-using Point = netDxf.Entities.Point;
-using TextAlignment = netDxf.Entities.TextAlignment;
-using Trace = netDxf.Entities.Trace;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Header;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
+using Attribute = Speckle.netDxf.Entities.Attribute;
+using Image = Speckle.netDxf.Entities.Image;
+using Point = Speckle.netDxf.Entities.Point;
+using TextAlignment = Speckle.netDxf.Entities.TextAlignment;
+using Trace = Speckle.netDxf.Entities.Trace;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     /// <summary>
     /// Low level DXF writer.
@@ -1989,7 +1989,7 @@ namespace netDxf.IO
                     this.WriteHatch((Hatch) entity);
                     break;
                 case EntityType.Image:
-                    this.WriteImage((Image) entity);
+                    this.WriteImage((Entities.Image) entity);
                     break;
                 case EntityType.Insert:
                     this.WriteInsert((Insert) entity);
@@ -2010,7 +2010,7 @@ namespace netDxf.IO
                     this.WriteMText((MText) entity);
                     break;
                 case EntityType.Point:
-                    this.WritePoint((Point) entity);
+                    this.WritePoint((Entities.Point) entity);
                     break;
                 case EntityType.Polyline2D:
                     Polyline2D polyline2D = (Polyline2D) entity;
@@ -2051,7 +2051,7 @@ namespace netDxf.IO
                     this.WriteTolerance((Tolerance) entity);
                     break;
                 case EntityType.Trace:
-                    this.WriteTrace((Trace) entity);
+                    this.WriteTrace((Entities.Trace) entity);
                     break;
                 case EntityType.Underlay:
                     this.WriteUnderlay((Underlay) entity);
@@ -2579,7 +2579,7 @@ namespace netDxf.IO
             this.WriteXData(solid.XData);
         }
 
-        private void WriteTrace(Trace trace)
+        private void WriteTrace(Entities.Trace trace)
         {
             this.chunk.Write(100, SubclassMarker.Trace);
 
@@ -2741,7 +2741,7 @@ namespace netDxf.IO
 
                 this.WriteXData(insert.XData);
 
-                foreach (Attribute attrib in insert.Attributes)
+                foreach (Entities.Attribute attrib in insert.Attributes)
                 {
                     this.WriteAttribute(attrib);
                 }
@@ -2924,7 +2924,7 @@ namespace netDxf.IO
             this.chunk.Write(8, layerName); // the polyline EndSequence layer should be the same as the polyline layer
         }
 
-        private void WritePoint(Point point)
+        private void WritePoint(Entities.Point point)
         {
             this.chunk.Write(100, SubclassMarker.Point);
 
@@ -4158,7 +4158,7 @@ namespace netDxf.IO
             this.WriteXData(dim.XData);
         }
 
-        private void WriteImage(Image image)
+        private void WriteImage(Entities.Image image)
         {
             this.chunk.Write(100, SubclassMarker.RasterImage);
 
@@ -4472,7 +4472,7 @@ namespace netDxf.IO
             this.WriteXData(def.XData);
         }
 
-        private void WriteAttribute(Attribute attrib)
+        private void WriteAttribute(Entities.Attribute attrib)
         {
             this.chunk.Write(0, attrib.CodeName);
             this.chunk.Write(5, attrib.Handle);
@@ -5376,7 +5376,7 @@ namespace netDxf.IO
                 {
                     // only Image entities are referenced by an ImageDefinition
                     Debug.Assert(o is Image, "Only Image entities can be referenced by an ImageDefinition.");
-                    Image image = (Image) o;
+                    Entities.Image image = (Entities.Image) o;
                     Dictionary<string, ImageDefinitionReactor> reactors = this.imageDefReactors[image.Definition.Handle];
                     ImageDefinitionReactor reactor = new ImageDefinitionReactor(image.Handle);
                     this.doc.NumHandles = reactor.AssignHandle(this.doc.NumHandles);

@@ -29,7 +29,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Threading;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents an ACI color (AutoCAD Color Index) that also supports true color.

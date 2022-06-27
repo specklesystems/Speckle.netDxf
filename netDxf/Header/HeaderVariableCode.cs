@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Header
+namespace Speckle.netDxf.Header
 {
     /// <summary>
     /// Strings system variables

@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using netDxf.Collections;
-using netDxf.Objects;
-using netDxf.Units;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Blocks
+namespace Speckle.netDxf.Blocks
 {
     /// <summary>
     /// Represent the record of a block in the tables section.

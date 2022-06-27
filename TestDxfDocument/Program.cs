@@ -5,22 +5,22 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
-using netDxf;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Entities;
-using GTE = netDxf.GTE;
-using netDxf.Header;
-using netDxf.Objects;
-using netDxf.Tables;
-using netDxf.Units;
-using Attribute = netDxf.Entities.Attribute;
-using FontStyle = netDxf.Tables.FontStyle;
-using Image = netDxf.Entities.Image;
-using Point = netDxf.Entities.Point;
-using Trace = netDxf.Entities.Trace;
-using Vector2 = netDxf.Vector2;
-using Vector3 = netDxf.Vector3;
+using Speckle.netDxf;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using GTE = Speckle.netDxf.GTE;
+using Speckle.netDxf.Header;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
+using Attribute = Speckle.netDxf.Entities.Attribute;
+using FontStyle = Speckle.netDxf.Tables.FontStyle;
+using Image = Speckle.netDxf.Entities.Image;
+using Point = Speckle.netDxf.Entities.Point;
+using Trace = Speckle.netDxf.Entities.Trace;
+using Vector2 = Speckle.netDxf.Vector2;
+using Vector3 = Speckle.netDxf.Vector3;
 
 namespace TestDxfDocument
 {
@@ -1537,7 +1537,7 @@ namespace TestDxfDocument
 
         public static void TextMirror()
         {
-            netDxf.Entities.Text.DefaultMirrText = true;
+            Speckle.netDxf.Entities.Text.DefaultMirrText = true;
 
             Text text1 = new Text("Sample text", new Vector2(30,10), 10);
             text1.Alignment = TextAlignment.BaselineLeft;

@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represent a loop of a <see cref="Hatch">hatch</see> boundaries.

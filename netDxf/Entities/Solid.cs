@@ -23,9 +23,9 @@
 // 
 #endregion
 
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a solid <see cref="EntityObject">entity</see>.

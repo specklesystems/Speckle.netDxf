@@ -26,16 +26,16 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Entities;
-using netDxf.Header;
-using netDxf.IO;
-using netDxf.Objects;
-using netDxf.Tables;
-using Attribute = netDxf.Entities.Attribute;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Header;
+using Speckle.netDxf.IO;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
+using Attribute = Speckle.netDxf.Entities.Attribute;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents a document to read and write DXF files.
@@ -853,7 +853,7 @@ namespace netDxf
                     this.blocks.References[insert.Block.Name].Add(insert);
                     //DrawingUnits insUnits = this.DrawingVariables.InsUnits;
                     //double docScale = UnitHelper.ConversionFactor(insert.Block.Record.Units, insUnits);
-                    foreach (Attribute attribute in insert.Attributes)
+                    foreach (Entities.Attribute attribute in insert.Attributes)
                     {
                         //if (assignHandle && attribute.Definition != null)
                         //{
@@ -1074,7 +1074,7 @@ namespace netDxf
                 case EntityType.Insert:
                     Insert insert = (Insert)entity;
                     this.blocks.References[insert.Block.Name].Remove(entity);
-                    foreach (Attribute att in insert.Attributes)
+                    foreach (Entities.Attribute att in insert.Attributes)
                     {
                         this.layers.References[att.Layer.Name].Remove(att);
                         att.LayerChanged -= this.Entity_LayerChanged;

@@ -26,7 +26,7 @@
 using System;
 using System.Globalization;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents the transparency of a layer or an entity.

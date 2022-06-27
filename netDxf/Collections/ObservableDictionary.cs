@@ -27,7 +27,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     public sealed class ObservableDictionary<TKey, TValue> :
         IDictionary<TKey, TValue>

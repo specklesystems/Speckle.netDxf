@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents the arguments thrown by the <c>ObservableCollection</c> events.

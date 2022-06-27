@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a <see cref="MLine">multiline</see> vertex.

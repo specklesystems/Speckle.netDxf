@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Flags (bit-coded).

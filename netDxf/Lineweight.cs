@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents the line weight of a layer or an entity.

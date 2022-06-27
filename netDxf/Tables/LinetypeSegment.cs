@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Base class for the three kinds of linetype segments simple, text, and shape.

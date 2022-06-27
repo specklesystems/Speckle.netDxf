@@ -23,10 +23,10 @@
 // 
 #endregion
 
-using netDxf.Header;
 using System;
+using Speckle.netDxf.Header;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     /// <summary>
     /// Represents an error that occur when trying to load a DXF file which <see cref="DxfVersion">version</see> is not supported.

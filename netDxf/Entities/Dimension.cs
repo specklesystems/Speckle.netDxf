@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents the base class for a dimension <see cref="EntityObject">entity</see>.

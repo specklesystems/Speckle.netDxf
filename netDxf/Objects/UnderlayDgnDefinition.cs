@@ -24,10 +24,10 @@
 #endregion
 
 using System.IO;
-using netDxf.Collections;
-using netDxf.Tables;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents a DGN underlay definition.

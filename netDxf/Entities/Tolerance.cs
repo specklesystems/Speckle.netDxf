@@ -26,9 +26,9 @@
 using System;
 using System.Text;
 using System.Text.RegularExpressions;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a tolerance <see cref="EntityObject">entity</see>.

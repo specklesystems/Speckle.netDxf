@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf.Blocks
+namespace Speckle.netDxf.Blocks
 {
     /// <summary>
     /// Represents the arguments thrown when an entity is added ore removed from a <see cref="Block">Block</see>.

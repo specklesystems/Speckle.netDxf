@@ -24,10 +24,10 @@
 #endregion
 
 using System;
-using netDxf.Blocks;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents an ordinate dimension <see cref="EntityObject">entity</see>.

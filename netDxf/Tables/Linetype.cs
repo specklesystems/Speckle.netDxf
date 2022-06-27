@@ -30,9 +30,9 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using netDxf.Collections;
+using Speckle.netDxf.Collections;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents a line type. Simple and complex line types are supported.

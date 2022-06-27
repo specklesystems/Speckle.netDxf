@@ -27,7 +27,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     internal class BinaryCodeValueWriter :
         ICodeValueWriter

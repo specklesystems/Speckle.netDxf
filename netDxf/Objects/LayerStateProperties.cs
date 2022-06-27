@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents the state of the properties of a layer.

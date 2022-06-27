@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Collections;
+using Speckle.netDxf.Collections;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents a User Coordinate System.

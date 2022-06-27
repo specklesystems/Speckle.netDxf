@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents the unprintable margins of a paper. 

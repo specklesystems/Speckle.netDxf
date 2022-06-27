@@ -27,11 +27,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using netDxf.Entities;
-using netDxf.Objects;
-using Trace = netDxf.Entities.Trace;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Objects;
+using Trace = Speckle.netDxf.Entities.Trace;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Gives direct access to operations related with the entities in a drawing.
@@ -126,9 +126,9 @@ namespace netDxf.Collections
         /// <summary>
         /// Gets the list of <see cref="Entities.Trace">traces</see> in the active layout.
         /// </summary>
-        public IEnumerable<Trace> Traces
+        public IEnumerable<Entities.Trace> Traces
         {
-            get { return this.document.Layouts[this.activeLayout].AssociatedBlock.Entities.OfType<Trace>(); }
+            get { return this.document.Layouts[this.activeLayout].AssociatedBlock.Entities.OfType<Entities.Trace>(); }
         }
 
         /// <summary>

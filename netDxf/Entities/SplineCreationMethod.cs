@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Defines how the spline entity was created.

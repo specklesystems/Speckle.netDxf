@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Represents the parameters to convert linear and angular units to its string representation.

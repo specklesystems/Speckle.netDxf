@@ -34,7 +34,7 @@
 
 using System.Diagnostics;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     public class BezierCurve :
         ParametricCurve

@@ -27,7 +27,7 @@ using System;
 using System.Text;
 using System.Threading;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents a 3x3 double precision matrix.

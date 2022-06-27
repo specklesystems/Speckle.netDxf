@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Header
+namespace Speckle.netDxf.Header
 {
     /// <summary>
     /// Defines the shape of the point entities.

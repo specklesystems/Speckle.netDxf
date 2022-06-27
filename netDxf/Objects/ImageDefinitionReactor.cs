@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     internal class ImageDefinitionReactor :
         DxfObject

@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Options for the <see cref="MText">multiline text</see> entity paragraph formatting.

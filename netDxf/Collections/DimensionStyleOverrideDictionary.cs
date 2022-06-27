@@ -26,9 +26,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents a dictionary of <see cref="DimensionStyleOverride">DimensionStyleOverrides</see>.

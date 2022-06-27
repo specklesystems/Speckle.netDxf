@@ -34,7 +34,7 @@
 
 using System.Diagnostics;
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // The algorithm implemented here is based on the document
     // https://www.geometrictools.com/Documentation/BSplineSurfaceLeastSquaresFit.pdf

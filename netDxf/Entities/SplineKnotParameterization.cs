@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Specifies the knot parameterization, computational methods that determines how the component curves between successive fit points within a spline are blended.

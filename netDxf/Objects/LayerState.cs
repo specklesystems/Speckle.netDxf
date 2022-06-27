@@ -27,11 +27,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using netDxf.Collections;
-using netDxf.Tables;
-using netDxf.IO;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.IO;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represents a layer state.

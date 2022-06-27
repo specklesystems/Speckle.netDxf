@@ -26,9 +26,9 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents an ellipse <see cref="EntityObject">entity</see>.

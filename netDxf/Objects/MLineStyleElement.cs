@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Represent each of the elements that make up a MLineStyle.

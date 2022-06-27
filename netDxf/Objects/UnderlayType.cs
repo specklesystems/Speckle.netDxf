@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Defines the different underlay documents available.

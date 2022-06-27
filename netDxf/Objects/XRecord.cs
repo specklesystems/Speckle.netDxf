@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     internal sealed class XRecord
     {

@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Tables;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a two dimensional polyline <see cref="EntityObject">entity</see>.

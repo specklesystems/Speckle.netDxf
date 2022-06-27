@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a tolerance, indicates the amount by which the geometric characteristic can deviate from a perfect form.

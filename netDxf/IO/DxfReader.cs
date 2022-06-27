@@ -30,19 +30,19 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Entities;
-using netDxf.Header;
-using netDxf.Objects;
-using netDxf.Tables;
-using netDxf.Units;
-using Attribute = netDxf.Entities.Attribute;
-using Image = netDxf.Entities.Image;
-using Point = netDxf.Entities.Point;
-using Trace = netDxf.Entities.Trace;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Header;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
+using Attribute = Speckle.netDxf.Entities.Attribute;
+using Image = Speckle.netDxf.Entities.Image;
+using Point = Speckle.netDxf.Entities.Point;
+using Trace = Speckle.netDxf.Entities.Trace;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     /// <summary>
     /// Low level DXF reader
@@ -116,7 +116,7 @@ namespace netDxf.IO
 
         // the ImageDefinition are defined, in the objects section AFTER the Image that references them,
         // temporarily these variables will store information to post process the Image list
-        private Dictionary<Image, string> imgToImgDefHandles;
+        private Dictionary<Entities.Image, string> imgToImgDefHandles;
         private Dictionary<string, ImageDefinition> imgDefHandles;
 
         // the UnderlayDefinitions are defined, in the objects section, AFTER the Underlay entity that references them,
@@ -242,7 +242,7 @@ namespace netDxf.IO
             this.dictionaries = new Dictionary<string, DictionaryObject>(StringComparer.OrdinalIgnoreCase);
             this.groupEntities = new Dictionary<Group, List<string>>();
             this.imgDefHandles = new Dictionary<string, ImageDefinition>(StringComparer.OrdinalIgnoreCase);
-            this.imgToImgDefHandles = new Dictionary<Image, string>();
+            this.imgToImgDefHandles = new Dictionary<Entities.Image, string>();
             this.mLineToStyleNames = new Dictionary<MLine, string>();
             this.underlayToDefinitionHandles = new Dictionary<Underlay, string>();
             this.underlayDefHandles = new Dictionary<string, UnderlayDefinition>();
@@ -980,7 +980,7 @@ namespace netDxf.IO
             {
                 Insert insert = pair.Key;
                 insert.Block = blocks[pair.Value];
-                foreach (Attribute att in insert.Attributes)
+                foreach (Entities.Attribute att in insert.Attributes)
                 {
                     // attribute definitions might be null if an INSERT entity attribute has not been defined in the block
                     if (insert.Block.AttributeDefinitions.TryGetValue(att.Tag, out AttributeDefinition attDef))
@@ -3531,7 +3531,7 @@ namespace netDxf.IO
             return attDef;
         }
 
-        private Attribute ReadAttribute(Block block, bool isBlockEntity = false)
+        private Entities.Attribute ReadAttribute(Block block, bool isBlockEntity = false)
         {
             string handle = null;
             Layer layer = Layer.Default;
@@ -3785,7 +3785,7 @@ namespace netDxf.IO
                 return null;
             }
 
-            Attribute attribute = new Attribute(attTag)
+            Entities.Attribute attribute = new Entities.Attribute(attTag)
             {
                 Handle = handle,
                 Color = color,
@@ -4133,7 +4133,7 @@ namespace netDxf.IO
 
             // It is a lot more intuitive to give the position in world coordinates and then define the orientation with the normal.
             Vector3 wcsBasePoint = MathHelper.Transform(basePoint, normal, CoordinateSystem.Object, CoordinateSystem.World);
-            Insert insert = new Insert(new List<Attribute>())
+            Insert insert = new Insert(new List<Entities.Attribute>())
             {
                 Block = block,
                 Position = wcsBasePoint,
@@ -5126,7 +5126,7 @@ namespace netDxf.IO
             return viewport;
         }
 
-        private Image ReadImage()
+        private Entities.Image ReadImage()
         {
             Vector3 position = Vector3.Zero;
             Vector3 u = Vector3.Zero;
@@ -5266,7 +5266,7 @@ namespace netDxf.IO
 
             ClippingBoundary clippingBoundary = boundaryType == ClippingBoundaryType.Rectangular ? new ClippingBoundary(vertexes[0], vertexes[1]) : new ClippingBoundary(vertexes);
 
-            Image image = new Image
+            Entities.Image image = new Entities.Image
             {
                 Width = width*uLength,
                 Height = height*vLength,
@@ -7127,7 +7127,7 @@ namespace netDxf.IO
             }
         }
 
-        private Point ReadPoint()
+        private Entities.Point ReadPoint()
         {
             Vector3 location = Vector3.Zero;
             Vector3 normal = Vector3.UnitZ;
@@ -7184,7 +7184,7 @@ namespace netDxf.IO
                 }
             }
 
-            Point entity = new Point
+            Entities.Point entity = new Entities.Point
             {
                 Position = location,
                 Thickness = thickness,
@@ -7520,7 +7520,7 @@ namespace netDxf.IO
             return entity;
         }
 
-        private Trace ReadTrace()
+        private Entities.Trace ReadTrace()
         {
             Vector3 v0 = Vector3.Zero;
             Vector3 v1 = Vector3.Zero;
@@ -7611,7 +7611,7 @@ namespace netDxf.IO
                 }
             }
 
-            Trace entity = new Trace
+            Entities.Trace entity = new Entities.Trace
             {
                 FirstVertex = new Vector2(v0.X, v0.Y),
                 SecondVertex = new Vector2(v1.X, v1.Y),
@@ -7862,7 +7862,7 @@ namespace netDxf.IO
             double rotation = 0.0;
             string blockName = null;
             Block block = null;
-            List<Attribute> attributes = new List<Attribute>();
+            List<Entities.Attribute> attributes = new List<Entities.Attribute>();
             List<XData> xData = new List<XData>();
 
             this.chunk.Next();
@@ -7937,7 +7937,7 @@ namespace netDxf.IO
             {
                 while (this.chunk.ReadString() != DxfObjectCode.EndSequence)
                 {
-                    Attribute attribute = this.ReadAttribute(block, isBlockEntity);
+                    Entities.Attribute attribute = this.ReadAttribute(block, isBlockEntity);
                     if (attribute != null)
                     {
                         attributes.Add(attribute);
@@ -11085,9 +11085,9 @@ namespace netDxf.IO
             }
 
             // post process the image list to assign their image definitions.
-            foreach (KeyValuePair<Image, string> pair in this.imgToImgDefHandles)
+            foreach (KeyValuePair<Entities.Image, string> pair in this.imgToImgDefHandles)
             {
-                Image image = pair.Key;
+                Entities.Image image = pair.Key;
 
                 image.Definition = this.imgDefHandles[pair.Value];
 

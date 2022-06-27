@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Defines the axis that measures the ordinate dimension.

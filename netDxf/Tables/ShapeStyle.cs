@@ -27,9 +27,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using netDxf.Collections;
+using Speckle.netDxf.Collections;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represent a shape style.

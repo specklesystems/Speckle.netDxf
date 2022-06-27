@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents an axis aligned bounding rectangle.

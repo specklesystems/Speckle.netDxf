@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Header
+namespace Speckle.netDxf.Header
 {
     /// <summary>
     /// Defines a header variable.

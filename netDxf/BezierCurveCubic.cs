@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represent a cubic bezier curve.

@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Blocks;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents a collection of dimension styles.

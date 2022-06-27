@@ -28,7 +28,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace netDxf.IO
+namespace Speckle.netDxf.IO
 {
     internal static class EncodingType
     {

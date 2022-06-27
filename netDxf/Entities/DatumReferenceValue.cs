@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents datum reference, a theoretically exact point, axis, or plane from which you make measurements and verify dimensions. 

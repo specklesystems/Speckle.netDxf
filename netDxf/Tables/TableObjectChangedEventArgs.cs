@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Event data for changes or substitutions of table objects in entities or other tables.

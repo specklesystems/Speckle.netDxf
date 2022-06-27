@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Blocks;
-using netDxf.Tables;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Represents a dimension <see cref="EntityObject">entity</see> that is aligned the reference line.

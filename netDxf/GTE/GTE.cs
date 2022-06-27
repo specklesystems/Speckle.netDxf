@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     public struct GTE
     {

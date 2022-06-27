@@ -32,7 +32,7 @@
 // https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
 // Version: 6.0.2022.01.06
 
-namespace netDxf.GTE
+namespace Speckle.netDxf.GTE
 {
     // A template class to provide 2D array access that conforms to row-major
     // order (RowMajor = true) or column-major order (RowMajor = false).  The

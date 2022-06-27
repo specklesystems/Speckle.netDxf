@@ -26,7 +26,7 @@
 using System;
 using System.Threading;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represent a two component vector of double precision.

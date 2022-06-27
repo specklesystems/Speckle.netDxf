@@ -26,7 +26,7 @@
 using System;
 using System.Globalization;
 
-namespace netDxf.Units
+namespace Speckle.netDxf.Units
 {
     /// <summary>
     /// Utility methods to format a decimal number to its different string representations.

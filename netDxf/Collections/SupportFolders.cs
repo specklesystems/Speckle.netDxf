@@ -28,7 +28,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents a list of support folders for the document.

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using netDxf.Collections;
+using Speckle.netDxf.Collections;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     public class View :
         TableObject

@@ -23,7 +23,7 @@
 // 
 #endregion
 
-namespace netDxf.Blocks
+namespace Speckle.netDxf.Blocks
 {
     /// <summary>
     /// Represents the termination element of the block definition.

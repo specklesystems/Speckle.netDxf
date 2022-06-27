@@ -26,12 +26,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using netDxf.Blocks;
-using netDxf.Objects;
-using netDxf.Tables;
-using netDxf.Units;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Entities
+namespace Speckle.netDxf.Entities
 {
     /// <summary>
     /// Holds methods to build the dimension blocks.

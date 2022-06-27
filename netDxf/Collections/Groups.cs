@@ -25,11 +25,11 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Entities;
-using netDxf.Objects;
-using netDxf.Tables;
+using Speckle.netDxf.Entities;
+using Speckle.netDxf.Objects;
+using Speckle.netDxf.Tables;
 
-namespace netDxf.Collections
+namespace Speckle.netDxf.Collections
 {
     /// <summary>
     /// Represents a collection of groups.

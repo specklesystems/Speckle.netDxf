@@ -25,7 +25,7 @@
 
 using System;
 
-namespace netDxf.Objects
+namespace Speckle.netDxf.Objects
 {
     /// <summary>
     /// Layer properties to update when restoring the LayerState to the Layers list and vice versa.

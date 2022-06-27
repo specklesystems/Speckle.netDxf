@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using netDxf.Blocks;
-using netDxf.Collections;
-using netDxf.Units;
+using Speckle.netDxf.Blocks;
+using Speckle.netDxf.Collections;
+using Speckle.netDxf.Units;
 
-namespace netDxf.Tables
+namespace Speckle.netDxf.Tables
 {
     /// <summary>
     /// Represents a dimension style.

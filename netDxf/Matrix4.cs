@@ -27,7 +27,7 @@ using System;
 using System.Text;
 using System.Threading;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represents a 4x4 double precision matrix.
@@ -1008,7 +1008,7 @@ namespace netDxf
         /// <returns>A mirror plane reflection matrix that passes through a point.</returns>
         public static Matrix4 Reflection(Vector3 normal, Vector3 point)
         {
-            // plane equation that passes through a point ax + by + cz + d = 0 where d = -point·normal
+            // plane equation that passes through a point ax + by + cz + d = 0 where d = -pointï¿½normal
             Vector3 n = Vector3.Normalize(normal);
             double a = n.X;
             double b = n.Y;

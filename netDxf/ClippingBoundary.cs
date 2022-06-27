@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using netDxf.Entities;
+using Speckle.netDxf.Entities;
 
-namespace netDxf
+namespace Speckle.netDxf
 {
     /// <summary>
     /// Represent a clipping boundary to display specific portions of
